@@ -1,0 +1,9 @@
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+body {
+  background-image: url("../images/css-principal.png");
+  background-color: #cccccc;
+}
