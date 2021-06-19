@@ -7,13 +7,36 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-<div class="content">
+<div class="barre-site">
+<p><center><a href="index.html">ilkaisernova.github.io</a></center></p>
+<p><center>Date d'aujourd'hui&nbsp;:<br />
+<script>
+var today = new Date();
+var jj = today.getDate();
+var mm = today.getMonth()+1; 
+var aaaa = today.getFullYear();
+
+if (jj < 10) { // Si [le nombre du] jour < 10, alors on lui rajouter un 0 avant sa valeur.
+jj = '0'+jj
+}
+
+if (mm < 10) { // Si [le nombre du] mois < 10, alors on lui rajouter un 0 avant sa valeur.
+mm = '0'+mm
+}
+
+document.write(aaaa+"-"+mm+"-"+jj)
+</script>
+</center></p>
+</div>
+<div class="contenu">
 <p><a href="index.html">Retour à la page d'accueil</a></p>
-<h1>Liens externes</h1>
+<h1><u>Liens externes</u></h1>
 <ul>
  <li><a href="https://kaisernet.neocities.org/">KAISERNET</a></li>
  <li><a href="http://translationlibrary.blicky.net/"><i>The Translation Library</i></a></li>
 </ul>
+<br />
+<p><a href="index.html">Retour à la page d'accueil</a></p>
 </div>
 </body>
 </html>

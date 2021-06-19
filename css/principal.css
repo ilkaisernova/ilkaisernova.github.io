@@ -1,9 +1,31 @@
-.content {
-  max-width: 500px;
-  margin: auto;
+body {
+  background-image: url("../images/css-principal.gif");
+  background-color: #cccccc;
 }
 
-body {
-  background-image: url("../images/css-principal.png");
-  background-color: #cccccc;
+.barre-site {
+  width: 20%;
+  float: right;
+  clear: right;
+  margin: 0;
+  padding: 0;
+  border-style: dotted;
+  border-color: #66ccff;
+  background-image: url("../images/css-contenu.jpg");
+  background-color: #f2f2f2;
+}
+
+.contenu {
+  width: 62.5rem;
+  max-width: 62.5rem;
+  display: block;
+  margin-left: 25%;
+  border-style: dotted;
+  border-color: #66ccff;
+  background-image: url("../images/css-contenu.jpg");
+  background-color: #f2f2f2;
+}
+
+#droite {
+text-align: right;
 }
