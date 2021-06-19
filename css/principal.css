@@ -16,8 +16,8 @@ body {
 }
 
 .contenu {
-  width: 62.5rem;
-  max-width: 62.5rem;
+  width: 50%;
+  max-width: 50%;
   display: block;
   margin-left: 25%;
   border-style: dotted;
